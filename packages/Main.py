@@ -7,22 +7,22 @@ from  Custom_Resnet import CusResNet18
 #from  find_lr import LRFinder
 
 
-from  augmentation import *
-from data import *
-from data_summary import *
-from datasets import *
+from load_data.augmentation import *
+from load_data.data import *
+from load_data.data_summary import *
+from load_data.datasets import *
 
-from Custom_Resnet import *
-from Net import *
-from S9_Model import *
+from models.Custom_Resnet import *
+from models.Net import *
+from models.S9_Model import *
 
-from plot import *
-from graphs import *
-from gradCAM import *
+from plotting.plot import *
+from plotting.graphs import *
+from plotting.gradCAM import *
 
-from test import *
-from train import *
-from find_lr import *
+from training.test import *
+from training.train import *
+from training.find_lr import *
 
 #import Main.py
 
